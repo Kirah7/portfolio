@@ -12,7 +12,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   name = "Kyrah",
   title = "SOFTWARE TESTER",
   introduction = "Passionate Software Tester dedicated to ensuring quality and seamless user experiences. Skilled in manual testing, bug tracking, and usability evaluation using Jira and Confluence. I love finding and fixing issues to make software better.",
-  photoUrl = "https://api.dicebear.com/7.x/avataaars/svg?seed=kyrah&gender=female&hair=long&hairColor=black",
+  photoUrl = "https://raw.githubusercontent.com/Kirah7/portfolio/refs/heads/main/public/ky.jpg",
 }) => {
   return (
     <section
