@@ -14,7 +14,8 @@ const AboutSection = ({
   title = "About Me",
   subtitle = "Software Tester & QA Enthusiast",
   bio = "Hi! I'm an aspiring Software Tester & QA Enthusiast, currently learning and building my skills in manual testing, bug tracking, and test case execution. I'm passionate about ensuring software quality and improving user experiences. As I continue to grow, I'm eager to apply my knowledge in real-world projects and collaborate with teams to deliver high-quality products.",
-  photoUrl = "https://api.dicebear.com/7.x/avataaars/svg?seed=kyrah&gender=female&hair=long&hairColor=black",
+   photoUrl = "https://raw.githubusercontent.com/Kirah7/portfolio/refs/heads/main/public/472427419_2125320087928001_5123119404226313557_n.jpg",
+
   professionalSummary = [
     "Manual Testing – Writing and executing test cases",
     "Bug Tracking – Using Jira for issue reporting",
