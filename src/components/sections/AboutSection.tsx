@@ -12,9 +12,9 @@ interface AboutSectionProps {
 
 const AboutSection = ({
   title = "About Me",
-  subtitle = "Software Tester & QA Enthusiast",
-  bio = "Hi! I'm an aspiring Software Tester & QA Enthusiast, currently learning and building my skills in manual testing, bug tracking, and test case execution. I'm passionate about ensuring software quality and improving user experiences. As I continue to grow, I'm eager to apply my knowledge in real-world projects and collaborate with teams to deliver high-quality products.",
-   photoUrl = "https://raw.githubusercontent.com/Kirah7/portfolio/refs/heads/main/public/472427419_2125320087928001_5123119404226313557_n.jpg",
+  subtitle = "Software Test Engineer | Manual QA Tester",
+  bio = "I’m a Software Test Engineer with almost one year of experience in manual software testing, ensuring applications meet quality standards before release. My experience includes writing and executing test cases, reporting and tracking defects, performing functional and regression testing, and working closely with developers to resolve issues. I’m detail-oriented, eager to learn, and committed to delivering reliable, high-quality software that provides a great user experience. I’m always looking for opportunities to expand my skills and contribute to building better products.",
+   photoUrl = '/ky2.jpeg',
 
   professionalSummary = [
     "Manual Testing – Writing and executing test cases",

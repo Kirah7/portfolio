@@ -3,15 +3,16 @@ import { Badge } from "../ui/badge";
 import { Progress } from "../ui/progress";
 import { Separator } from "../ui/separator";
 import {
-  Code,
+  // Code,
   Database,
   FileSearch,
-  GitBranch,
+  // GitBranch,
   Globe,
   Layout,
-  Server,
-  Terminal,
-  TestTube,
+  // Server,
+  // Terminal,
+  // TestTube,
+  Brain,
 } from "lucide-react";
 
 interface SkillCategory {
@@ -33,24 +34,24 @@ interface SkillsSectionProps {
 
 const SkillsSection = ({
   categories = [
+    // {
+    //   name: "Testing Tools",
+    //   icon: <TestTube className="h-5 w-5 text-pink-400" />,
+    //   skills: [
+    //     { name: "Selenium", proficiency: 90 },
+    //     { name: "Cypress", proficiency: 85 },
+    //     { name: "JUnit", proficiency: 80 },
+    //     { name: "TestNG", proficiency: 75 },
+    //   ],
+    // },
     {
-      name: "Testing Tools",
-      icon: <TestTube className="h-5 w-5 text-pink-400" />,
+      name: "AI Testing",
+      icon: <Brain className="h-5 w-5 text-purple-400" />,
       skills: [
-        { name: "Selenium", proficiency: 90 },
-        { name: "Cypress", proficiency: 85 },
-        { name: "JUnit", proficiency: 80 },
-        { name: "TestNG", proficiency: 75 },
-      ],
-    },
-    {
-      name: "Automation",
-      icon: <Terminal className="h-5 w-5 text-purple-400" />,
-      skills: [
-        { name: "Python", proficiency: 85 },
-        { name: "JavaScript", proficiency: 80 },
-        { name: "Java", proficiency: 75 },
-        { name: "Robot Framework", proficiency: 70 },
+        { name: "MCP (Model Context Protocol)", proficiency: 85 },
+        { name: "AI Agent Testing", proficiency: 80 },
+        { name: "Prompt Engineering", proficiency: 75 },
+        { name: "LLM Evaluation", proficiency: 70 },
       ],
     },
     {
@@ -58,29 +59,29 @@ const SkillsSection = ({
       icon: <Globe className="h-5 w-5 text-pink-400" />,
       skills: [
         { name: "Postman", proficiency: 90 },
-        { name: "REST Assured", proficiency: 85 },
-        { name: "SoapUI", proficiency: 75 },
-        { name: "Swagger", proficiency: 70 },
+        // { name: "REST Assured", proficiency: 85 },
+        // { name: "SoapUI", proficiency: 75 },
+        // { name: "Swagger", proficiency: 70 },
       ],
     },
-    {
-      name: "Performance Testing",
-      icon: <Server className="h-5 w-5 text-purple-400" />,
-      skills: [
-        { name: "JMeter", proficiency: 85 },
-        { name: "LoadRunner", proficiency: 75 },
-        { name: "Gatling", proficiency: 70 },
-        { name: "K6", proficiency: 65 },
-      ],
-    },
+    // {
+    //   name: "Performance Testing",
+    //   icon: <Server className="h-5 w-5 text-purple-400" />,
+    //   skills: [
+    //     { name: "JMeter", proficiency: 85 },
+    //     { name: "LoadRunner", proficiency: 75 },
+    //     { name: "Gatling", proficiency: 70 },
+    //     { name: "K6", proficiency: 65 },
+    //   ],
+    // },
     {
       name: "Database Testing",
       icon: <Database className="h-5 w-5 text-peach-400" />,
       skills: [
         { name: "SQL", proficiency: 85 },
-        { name: "MongoDB", proficiency: 75 },
-        { name: "PostgreSQL", proficiency: 70 },
-        { name: "Oracle", proficiency: 65 },
+        { name: "DynamoDB", proficiency: 75 },
+        // { name: "PostgreSQL", proficiency: 70 },
+        // { name: "Oracle", proficiency: 65 },
       ],
     },
     {
@@ -88,9 +89,9 @@ const SkillsSection = ({
       icon: <FileSearch className="h-5 w-5 text-pink-400" />,
       skills: [
         { name: "JIRA", proficiency: 90 },
-        { name: "TestRail", proficiency: 85 },
-        { name: "qTest", proficiency: 75 },
-        { name: "Zephyr", proficiency: 70 },
+        // { name: "TestRail", proficiency: 85 },
+        // { name: "qTest", proficiency: 75 },
+        // { name: "Zephyr", proficiency: 70 },
       ],
     },
     {
@@ -144,7 +145,7 @@ const SkillsSection = ({
                     <Progress
                       value={skill.proficiency}
                       className="h-2 bg-gray-100"
-                      indicatorClassName="bg-gradient-to-r from-pink-300 to-purple-300"
+                      // indicatorClassName="bg-gradient-to-r from-pink-300 to-purple-300"
                     />
                     {skillIndex < category.skills.length - 1 && (
                       <Separator className="my-3 bg-gray-100" />
